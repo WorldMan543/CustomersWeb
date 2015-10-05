@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="690758b4-8548-4dab-b513-cb8560c792ec" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://consumers.azurewebsites.net/ConsumerService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ConsumerService.xsd" MetadataType="Schema" ID="39b509ee-e5f8-458d-8a8f-a0727f829b91" SourceId="1" SourceUrl="https://consumers.azurewebsites.net/ConsumerService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ConsumerService.wsdl" MetadataType="Wsdl" ID="135f95bb-5dd8-47a3-b2d8-149dc15771ad" SourceId="1" SourceUrl="https://consumers.azurewebsites.net/ConsumerService.svc?wsdl" />
+    <MetadataFile FileName="ConsumerService.disco" MetadataType="Disco" ID="e403c4b9-e06f-41b3-b875-198bb0bae233" SourceId="1" SourceUrl="https://consumers.azurewebsites.net/ConsumerService.svc?disco" />
+    <MetadataFile FileName="ConsumerService1.xsd" MetadataType="Schema" ID="56d9f0ce-23fc-465f-afc7-af793b644a12" SourceId="1" SourceUrl="https://consumers.azurewebsites.net/ConsumerService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ConsumerService2.xsd" MetadataType="Schema" ID="2144b3f0-1ace-42c1-a1dc-879b3a9ad481" SourceId="1" SourceUrl="https://consumers.azurewebsites.net/ConsumerService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
